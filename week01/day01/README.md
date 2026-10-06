@@ -43,11 +43,11 @@ make clean
     -`aarch64-linux-gnu-gcc`: ARM64 cross compiler
 
 ## Troubleshooting
-    - `gcc -E main.c` 실행 시 -o를 지정하지 않아 전처리 결과가 stdout으로 출력됨
-        - `gcc -E main.c -o main.i` 형태로 출력 파일을 지정하여 해결
+- `gcc -E main.c` 실행 시 -o를 지정하지 않아 전처리 결과가 stdout으로 출력됨
+    - `gcc -E main.c -o main.i` 형태로 출력 파일을 지정하여 해결
 
 ## Takeaways
-    - GCC의 전체 빌드 단계를 직접 확인
-    - Makefile이 단순 명령 모음이 아니라 dependency 기반 빌드 시스템이라는 점 확인
-    - Natice compiler와 Cross compiler의 차이 이해
+- GCC의 전체 빌드 단계를 직접 확인
+- Makefile이 단순 명령 모음이 아니라 dependency 기반 빌드 시스템이라는 점 확인
+- Natice compiler와 Cross compiler의 차이 이해
 
