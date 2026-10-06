@@ -1,0 +1,8 @@
+*.o
+*.out
+*.elf
+*.bin
+
+app
+
+.vscode/
