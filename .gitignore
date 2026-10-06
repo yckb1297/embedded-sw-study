@@ -3,6 +3,10 @@
 *.elf
 *.bin
 
+*.swp
+*.swo
+*.swn
+
 app
 
 .vscode/

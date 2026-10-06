@@ -33,7 +33,7 @@ make clean
     - preprocessing: `-E`
     - compilation: `-S`
     - assembly: `-c`
-    - linking: executable 생성ㅇ
+    - linking: executable 생성
 - Object File
     - 링크 전 단계의 architecture-dependent object code
 - Makefile Dependency
