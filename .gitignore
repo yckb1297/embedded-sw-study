@@ -7,10 +7,4 @@
 *.swo
 *.swn
 
-app
-copy
-
-input.txt
-output.txt
-
 .vscode/
