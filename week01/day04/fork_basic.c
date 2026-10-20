@@ -17,14 +17,14 @@ int main(void){
         printf("[Child]\n");
         printf("PID: %ld\n", (long)getpid());
         printf("PPID: %ld\n", (long)getppid());
-        printf("Fork return = %d\n", pid);
+        printf("Fork return = %ld\n", (long)pid);
     }
     else                //parent
     {
         printf("[PARENT]\n");
         printf("PID: %ld\n", (long)getpid());
         printf("PPID: %ld\n", (long)getppid());
-        printf("Fork return = %d\n", pid);
+        printf("Fork return = %ld\n", (long)pid);
     }
 
     printf("After fork\n");
